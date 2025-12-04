@@ -1,0 +1,416 @@
+.container-experiences {
+    width: 100vw;
+}
+
+/* *************MEDIA QUERIES************** */
+
+            /*
+             MOBILE - ATÉ 768px
+             TABLET - 768px até 1024px
+             DESKTOP - 1024px até 1200px
+             GRANDES TELAS - ACIMA DE 1200PX
+            */
+
+@media screen and (max-width: 768px) { /* CELULARES */
+
+    .details-experiences {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+        background-color: #E7E9EE;
+        width: 94vw;
+        justify-self: center;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+
+    .details-experiences h3 {
+        font-family: Helvetica;
+        color: #477E98;
+        font-weight: 600;
+        font-size: 1.2rem;
+        text-shadow: .2px .2px .1px #000000;
+        margin-left: 10px;
+    }
+
+    .icon-experiences {
+        font-size: 1.5rem;
+        color: #477E98;
+    }
+
+    .item-details-experiences {
+        display: flex;
+        flex-direction: column;
+        border-left: 10px solid #477E98;
+        border-radius: 20px;
+        gap: 5px;
+        padding: 10px;
+    }
+
+    .item-details-experiences:hover {
+        border-left: 15px solid #477E98;
+        border-radius: 30px;
+    }
+
+    .icon-details-experiences {
+        color: #477E98;
+        font-size: 1rem;
+    }
+
+    .title-item {
+        color: black;
+        text-align: justify;
+        margin-left: 10px;
+        font-size: 1.2rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 500;
+        text-shadow: .2px .2px .1px #fffbfb;
+    }
+
+    .title-item a {
+        display: inline-block;
+        width: 150px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #477E98;
+        color: #ffffff;
+        border: 2px dotted #ffffff;
+        outline: 2px solid #477E98;
+        padding: .5px;
+        border-radius: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-shadow: .5px .5px 3px black;
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+
+    .title-item a:hover {
+        background-color: #477e98b7;
+        font-size: 1.1rem;
+    }
+
+    .description-item {
+        color: black;
+        text-align: justify;
+        margin-left: 10px;
+        font-size: 1.1rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 500;
+        text-shadow: .2px .2px .1px #fffbfb;
+    }
+
+    .technology-item {
+        color: black;
+        text-align: justify;
+        margin-left: 10px;
+        font-size: 1.1rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 500;
+        text-shadow: .2px .2px .1px #fffbfb;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) { /* TABLETS */
+
+    .details-experiences {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+        background-color: #E7E9EE;
+        width: 96vw;
+        justify-self: center;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+
+    .details-experiences h3 {
+        font-family: Helvetica;
+        color: #477E98;
+        font-weight: 600;
+        font-size: 1.3rem;
+        text-shadow: .2px .2px .1px #000000;
+        margin-left: 10px;
+    }
+
+    .icon-experiences {
+        font-size: 1.5rem;
+        color: #477E98;
+    }
+
+    .item-details-experiences {
+        display: flex;
+        flex-direction: column;
+        border-left: 10px solid #477E98;
+        border-radius: 20px;
+        gap: 5px;
+        padding: 10px;
+    }
+
+    .item-details-experiences:hover {
+        border-left: 15px solid #477E98;
+        border-radius: 30px;
+    }
+
+    .icon-details-experiences {
+        color: #477E98;
+        font-size: 1rem;
+    }
+
+    .title-item {
+        color: black;
+        text-align: justify;
+        margin-left: 10px;
+        font-size: 1.3rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 500;
+        text-shadow: .2px .2px .1px #fffbfb;
+    }
+
+    .title-item a {
+        display: inline-block;
+        width: 150px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #477E98;
+        color: #ffffff;
+        border: 2px dotted #ffffff;
+        outline: 2px solid #477E98;
+        padding: .5px;
+        border-radius: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-shadow: .5px .5px 3px black;
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+
+    .title-item a:hover {
+        background-color: #477e98b7;
+        font-size: 1.1rem;
+    }
+
+    .description-item {
+        color: black;
+        text-align: justify;
+        margin-left: 10px;
+        font-size: 1.2rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 500;
+        text-shadow: .2px .2px .1px #fffbfb;
+    }
+
+    .technology-item {
+        color: black;
+        text-align: justify;
+        margin-left: 10px;
+        font-size: 1.2rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 500;
+        text-shadow: .2px .2px .1px #fffbfb;
+    }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) { /* DESKTOP */
+
+    .details-experiences {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+        background-color: #E7E9EE;
+        width: 97vw;
+        justify-self: center;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+
+    .details-experiences h3 {
+        font-family: Helvetica;
+        color: #477E98;
+        font-weight: 600;
+        font-size: 1.3rem;
+        text-shadow: .2px .2px .1px #000000;
+        margin-left: 10px;
+    }
+
+    .icon-experiences {
+        font-size: 1.5rem;
+        color: #477E98;
+    }
+
+    .item-details-experiences {
+        display: flex;
+        flex-direction: column;
+        border-left: 10px solid #477E98;
+        border-radius: 20px;
+        gap: 5px;
+        padding: 10px;
+    }
+
+    .item-details-experiences:hover {
+        border-left: 15px solid #477E98;
+        border-radius: 30px;
+    }
+
+    .icon-details-experiences {
+        color: #477E98;
+        font-size: 1rem;
+    }
+
+    .title-item {
+        color: black;
+        text-align: justify;
+        margin-left: 10px;
+        font-size: 1.3rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 500;
+        text-shadow: .2px .2px .1px #fffbfb;
+    }
+
+    .title-item a {
+        display: inline-block;
+        width: 150px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #477E98;
+        color: #ffffff;
+        border: 2px dotted #ffffff;
+        outline: 2px solid #477E98;
+        padding: .5px;
+        border-radius: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-shadow: .5px .5px 3px black;
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+
+    .title-item a:hover {
+        background-color: #477e98b7;
+        font-size: 1.1rem;
+    }
+
+    .description-item {
+        color: black;
+        text-align: justify;
+        margin-left: 10px;
+        font-size: 1.3rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 500;
+        text-shadow: .2px .2px .1px #fffbfb;
+    }
+
+    .technology-item {
+        color: black;
+        text-align: justify;
+        margin-left: 10px;
+        font-size: 1.3rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 500;
+        text-shadow: .2px .2px .1px #fffbfb;
+    }
+
+}
+
+@media screen and (min-width: 1200px) { /* GRANDES TELAS */
+    
+    .details-experiences {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+        background-color: #E7E9EE;
+        width: 98vw;
+        justify-self: center;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+
+    .details-experiences h3 {
+        font-family: Helvetica;
+        color: #477E98;
+        font-weight: 600;
+        font-size: 1.4rem;
+        text-shadow: .2px .2px .1px #000000;
+        margin-left: 10px;
+    }
+
+    .icon-experiences {
+        font-size: 1.5rem;
+        color: #477E98;
+    }
+
+    .item-details-experiences {
+        display: flex;
+        flex-direction: column;
+        border-left: 10px solid #477E98;
+        border-radius: 20px;
+        gap: 5px;
+        padding: 10px;
+    }
+
+    .item-details-experiences:hover {
+        border-left: 15px solid #477E98;
+        border-radius: 30px;
+    }
+
+    .icon-details-experiences {
+        color: #477E98;
+        font-size: 1rem;
+    }
+
+    .title-item {
+        color: black;
+        text-align: justify;
+        margin-left: 10px;
+        font-size: 1.3rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 500;
+        text-shadow: .2px .2px .1px #fffbfb;
+    }
+
+    .title-item a {
+        display: inline-block;
+        width: 150px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #477E98;
+        color: #ffffff;
+        border: 2px dotted #ffffff;
+        outline: 2px solid #477E98;
+        padding: .5px;
+        border-radius: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-shadow: .5px .5px 3px black;
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+
+    .title-item a:hover {
+        background-color: #477e98b7;
+        font-size: 1.1rem;
+    }
+
+    .description-item {
+        color: black;
+        text-align: justify;
+        margin-left: 10px;
+        font-size: 1.3rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 500;
+        text-shadow: .2px .2px .1px #fffbfb;
+    }
+
+    .technology-item {
+        color: black;
+        text-align: justify;
+        margin-left: 10px;
+        font-size: 1.3rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 500;
+        text-shadow: .2px .2px .1px #fffbfb;
+    }
+
+}            

@@ -1,0 +1,259 @@
+.container-footer {
+    width: 100vw;
+    background-color: #477E98;
+    position: sticky;
+    bottom: 0;
+}
+
+/* *************MEDIA QUERIES************** */
+
+            /*
+             MOBILE - ATÉ 768px
+             TABLET - 768px até 1024px
+             DESKTOP - 1024px até 1200px
+             GRANDES TELAS - ACIMA DE 1200PX
+            */
+
+@media screen and (max-width: 768px) { /* CELULARES */
+
+    .group-footer {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        justify-self: center;
+        padding: 2px;
+    }
+
+    .details-footer-contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .details-footer-contact .title-contact {
+        font-size: 1.1rem;
+        padding: 1px;
+        margin-bottom: 10px;
+    }
+
+    .details-footer-contact p {
+        color: white;
+        text-shadow: .1px .2px 1px black;
+        font-size: .9rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 600;
+    }
+
+    .icon-contact {
+        font-size: 1rem;
+        color: #ffffff;
+    }
+
+    .details-footer-contact .info-city-uf {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        font-size: .9rem;
+        margin-top: 10px;
+    }
+
+    .details-footer-social-media {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .icon-social-media {
+        color: white;
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+
+    .icon-social-media:hover {
+        color: rgba(255, 255, 255, 0.651);
+        font-size: 1.1rem;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) { /* TABLETS */
+
+    .group-footer {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        justify-self: center;
+        padding: 2px;
+    }
+
+    .details-footer-contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .details-footer-contact .title-contact {
+        font-size: 1.3rem;
+        padding: 1px;
+        margin-bottom: 10px;
+    }
+
+    .details-footer-contact p {
+        color: white;
+        text-shadow: .1px .2px 1px black;
+        font-size: 1.1rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 600;
+    }
+
+    .icon-contact {
+        font-size: 1rem;
+        color: #ffffff;
+    }
+
+    .details-footer-contact .info-city-uf {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .details-footer-social-media {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .icon-social-media {
+        color: white;
+        font-size: 1.4rem;
+        cursor: pointer;
+    }
+
+    .icon-social-media:hover {
+        color: rgba(255, 255, 255, 0.651);
+        font-size: 1.2rem;
+    }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) { /* DESKTOP */
+
+    .group-footer {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        justify-self: center;
+        padding: 2px;
+    }
+
+    .details-footer-contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .details-footer-contact .title-contact {
+        font-size: 1.3rem;
+        padding: 1px;
+        margin-bottom: 10px;
+    }
+
+    .details-footer-contact p {
+        color: white;
+        text-shadow: .1px .2px 1px black;
+        font-size: 1.1rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 600;
+    }
+
+    .icon-contact {
+        font-size: 1rem;
+        color: #ffffff;
+    }
+
+    .details-footer-contact .info-city-uf {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .details-footer-social-media {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .icon-social-media {
+        color: white;
+        font-size: 1.4rem;
+        cursor: pointer;
+    }
+
+    .icon-social-media:hover {
+        color: rgba(255, 255, 255, 0.651);
+        font-size: 1.2rem;
+    }
+
+}
+
+@media screen and (min-width: 1200px) { /* GRANDES TELAS */
+    
+    .group-footer {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        justify-self: center;
+        padding: 2px;
+    }
+
+    .details-footer-contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .details-footer-contact .title-contact {
+        font-size: 1.5rem;
+        padding: 1px;
+        margin-bottom: 10px;
+    }
+
+    .details-footer-contact p {
+        color: white;
+        text-shadow: .1px .2px 1px black;
+        font-size: 1.2rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 600;
+    }
+
+    .icon-contact {
+        font-size: 1rem;
+        color: #ffffff;
+    }
+
+    .details-footer-contact .info-city-uf {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        font-size: 1.1rem;
+        margin-top: 10px;
+    }
+
+    .details-footer-social-media {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .icon-social-media {
+        color: white;
+        font-size: 1.6rem;
+        cursor: pointer;
+    }
+
+    .icon-social-media:hover {
+        color: rgba(255, 255, 255, 0.651);
+        font-size: 1.3rem;
+    }
+
+}            
